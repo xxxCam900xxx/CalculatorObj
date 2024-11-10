@@ -4,9 +4,9 @@ In diesem Projekt baue ich gerade einen kleinen Taschen welche ich mit meinem je
 Ich versuche in diesem Projekt den Taschen Rechner Objekt Orientiert zu bauen, um ein besseres Verständnis zu kriegen.
 Dazu möchte ich noch mein ganzes Projekt einwenig dokumentieren, um später einen guten Rückblick zu haben.
 
-[X] Menu Erstellt
-[] Operationen eingebaut
-[] Testfälle gebaut
+- [X] Menu Erstellt
+- [] Operationen eingebaut
+- [] Testfälle gebaut
 
 ---
 
