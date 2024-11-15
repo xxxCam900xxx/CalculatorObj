@@ -47,3 +47,44 @@ public string StartMenu () {
 Heute konnte ich das Menu fertigstellen, weitergeht es mit dem Rechner!
 
 ---
+
+### 15.11.2024
+
+Heute habe ich weiter an meinem Taschenrechner gearbeitet. Er kann jetzt die 4 Operationen **(+,-,*,/)**. Um meine Zahlen und Operationen zu bekommen, habe ich meinen ``String`` mit `Console.ReadLine()` ausgelesen.Dabei gab es ein Problem, da ich versucht habe einen ``Stringwert`` in einen ``Double`` einzufügen, hatte ich Konvertierungsprobleme. Diese konnte ich lösen, indem ich den ``String`` in einen ``Double`` konvertierte. Das ging ganz einfach mit `Convert.ToDouble(num)`.
+
+```C#
+result = Convert.ToDouble(num1) + Convert.ToDouble(num2);
+```
+
+Als ich meine Konvertierung gebaut habe, wollte ich noch einbauen, dass man das immer wiederholen kann. Also habe ich einen ``Bool`` eingebaut, der prüft, ob die Person weiterrechnen will oder nicht. Diesen habe ich in eine ``Do-While-Loop`` gepackt. Am Ende sah das Code Snippet so aus:
+
+```C#
+bool isValid = false;
+
+do
+{
+    Console.WriteLine("Do you want to proceed? (yes/no)");
+    string answer = Console.ReadLine()?.Trim().ToLower();
+    Console.Clear();
+
+    if (answer == "yes" || answer == "y")
+    {
+        isValid = true;
+        CalcProcess();
+    }
+    else if (answer == "no" || answer == "n")
+    {
+        isValid = true;
+        StopCalc();
+    }
+    else
+    {
+        Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+        isValid = false;
+    }
+} while (!isValid);
+```
+
+Jetzt muss ich noch ein Errorhandling einbauen, da die Leute gerne Buchstaben in Operatoren oder Zahlen einbauen. Das möchte ich verhindern und bei einer Fehlermeldung bitten, dies noch einmal einzugeben.
+
+---

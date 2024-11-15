@@ -12,3 +12,18 @@ C:\Users\came\OneDrive - TBZ\Desktop\Projects\CalculatorObj\Calculator\obj\Debug
 C:\Users\came\OneDrive - TBZ\Desktop\Projects\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.pdb
 C:\Users\came\OneDrive - TBZ\Desktop\Projects\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
 C:\Users\came\OneDrive - TBZ\Desktop\Projects\CalculatorObj\Calculator\obj\Debug\net8.0\ref\Calculator.dll
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\bin\Debug\net8.0\Calculator.exe
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\bin\Debug\net8.0\Calculator.deps.json
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\bin\Debug\net8.0\Calculator.runtimeconfig.json
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\bin\Debug\net8.0\Calculator.dll
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\bin\Debug\net8.0\Calculator.pdb
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfoInputs.cache
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.AssemblyInfo.cs
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.csproj.CoreCompileInputs.cache
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.sourcelink.json
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.dll
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\refint\Calculator.dll
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.pdb
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\Calculator.genruntimeconfig.cache
+C:\Users\Came\Desktop\Priv. Projcets\CalculatorObj\Calculator\obj\Debug\net8.0\ref\Calculator.dll

@@ -27,13 +27,12 @@ namespace Calculator.Service
             }
             else if (Option == OptionsList[1])
             {
-                Console.WriteLine("Staring Options!");
+                Console.WriteLine("There are no Options Yet!");
                 Console.ReadLine();
             }
             else if (Option == OptionsList[2])
             {
                 Console.WriteLine("Goodbye Sir!");
-                Console.ReadLine();
             }
             else
             {
@@ -93,8 +92,78 @@ namespace Calculator.Service
 
         public void CalcProcess ()
         {
-            Console.WriteLine("Choose!");
-            Console.ReadLine();
+            Console.WriteLine("What is the first Number you wanna Use?");
+            string num1 = Console.ReadLine();
+
+            Console.Clear();
+
+            Console.WriteLine("Now which Operator you wann Use?");
+            string opr = Console.ReadLine();
+
+            Console.Clear();
+
+            Console.WriteLine("Last but not Least which numer should we " + opr + " with?");
+            string num2 = Console.ReadLine();
+
+            Console.Clear();
+
+            double result = 0;
+
+            switch (opr)
+            {
+                case "+":
+                    result = Convert.ToDouble(num1) + Convert.ToDouble(num2);
+                    break;
+                case "-":
+                    result = Convert.ToDouble(num1) - Convert.ToDouble(num2);
+                    break;
+                case "*":
+                    result = Convert.ToDouble(num1) * Convert.ToDouble(num2);
+                    break;
+                case "/":
+                    result = Convert.ToDouble(num1) / Convert.ToDouble(num2);
+                    break;
+                case ":":
+                    result = Convert.ToDouble(num1) / Convert.ToDouble(num2);
+                    break;
+                default:
+                    Console.WriteLine("Invalid operator");
+                    break;
+            }
+
+            Console.WriteLine(num1 + " " + opr + " " + num2 + " = " + result);
+            Console.WriteLine("Result: " + result);
+            Console.WriteLine();
+
+            bool isValid = false;
+
+            do
+            {
+                Console.WriteLine("Do you want to proceed? (yes/no)");
+                string answer = Console.ReadLine()?.Trim().ToLower();
+                Console.Clear();
+
+                if (answer == "yes" || answer == "y")
+                {
+                    isValid = true;
+                    CalcProcess();
+                }
+                else if (answer == "no" || answer == "n")
+                {
+                    isValid = true;
+                    StopCalc();
+                }
+                else
+                {
+                    Console.WriteLine("Invalid input. Please enter 'yes' or 'no'.");
+                    isValid = false;
+                }
+            } while (!isValid);
+
+        }
+        public void StopCalc()
+        {
+            Console.WriteLine("GoodBye");
         }
     }
 }
