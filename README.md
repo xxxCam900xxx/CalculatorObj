@@ -5,7 +5,8 @@ Ich versuche in diesem Projekt den Taschen Rechner Objekt Orientiert zu bauen, u
 Dazu möchte ich noch mein ganzes Projekt einwenig dokumentieren, um später einen guten Rückblick zu haben.
 
 - [X] Menu Erstellt
-- [ ] Operationen eingebaut
+- [X] Operationen eingebaut
+- [ ] Error-handling einbauen
 - [ ] Testfälle gebaut
 
 ---
